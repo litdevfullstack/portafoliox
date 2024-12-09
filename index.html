@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Portfolio</title>
+</head>
+
+<body class="dark">
+  <header class="header">
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <img id="toggle-icon" src="/assets/icons/moon.svg" alt="" class="toggle-theme__icon">
+        <p id="toggle-text" class="toggle-theme_text" data-value="toggleText">Dark Mode</p>
+      </div>
+      <div class="download">
+       <a href="/cv/Curriculum Profesional.pdf" download="cv">
+        Descargar CV
+       </a>
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="rgb(104, 104, 231)" class="colors__item colors__item--blue"></div>
+        <div data-color=" green" class="colors__item colors__item--green"></div>
+        <div data-color=" purple" class="colors__item colors__item--purple"></div>
+        <div data-color="orange" class="colors__item colors__item--orange"></div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="column column--left">
+      <article class="card card--profile">
+        <div class="card__img-container">
+          <img src="/assets/images/385381746_3127317240746013_4019989228833829432_n.jpg" alt="">
+        </div>
+        <div class="card__header">
+          <h2 class="card__title">Diego Acuña</h2>
+          <p class="card__subtitle" data-value="profileSubtitle">Front end developer</p>
+        </div>
+        <div class="card__body">
+          <div class="card__link">
+            <i class="mail-icon"><img src="/assets/icons/mail.svg" alt=""></i>
+            <a href="mailto:diego57mastodonte@gmail.com">
+              diego57mastodonte@gmail.com
+            </a>
+          </div>
+          <div class="card__link">
+            <i class="phone-icon">
+              <img src="/assets/icons/phone.svg" alt="">
+            </i>
+            <a href="tel:+573227862196">
+              +573227862196
+            </a>
+            <p class="card__text" data-value="profileText">
+              ¡Hola! Soy Diego Acuña y este es mi portafolio de desarrollo web.
+              Aunque estoy en las primeras etapas de mi carrera profesional,
+              estoy emocionado por compartir mi pasión y dedicación por la creación de experiencias digitales
+              cautivadoras.
+
+              Mi enfoque principal es combinar mis habilidades técnicas en HTML, CSS
+              y JavaScript con mi creatividad para diseñar y construir sitios web intuitivos y atractivos. A través de
+              proyectos personales y ejercicios de práctica, he adquirido experiencia en el desarrollo de sitios web
+              responsivos que se adaptan a diferentes dispositivos y tamaños de pantalla.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="card card--hobbies">
+        <h2 class="card__title" data-value="hobbiesTitle">Hobbies</h2>
+        <div class="card__img-container">
+          <img src="/assets/images/images.jpg" alt="skater">
+        </div>
+        <h3 class="hobbie__title">Skateboarding</h3>
+        <p class="card__text" data-value="skateboardingText">Desde que era un niño, el skateboarding ha sido mucho más
+          que un simple pasatiempo para
+          mí; es una forma de vida, una expresión de libertad y creatividad que me ha llevado a explorar el mundo de una
+          manera única.
+
+          Cada vez que me subo a mi tabla, siento una oleada de adrenalina que recorre mi cuerpo. El sonido de las
+          ruedas girando sobre el asfalto, el viento acariciando mi rostro y la sensación de ingravidez cuando me
+          deslizo por las calles son incomparables. El skateboarding es un baile entre el equilibrio y la destreza,
+          donde cada truco es un desafío que me impulsa a superarme a mí mismo.</p>
+      </article>
+    </section>
+    <section class="column column--right">
+      <article class="card">
+        <h2 class="card__title" data-value="frontEndTitle">Front End</h2>
+        <div class="skills">
+          <div class="skills__item">
+            <img class="skill__tech" src="/assets/icons/html_filetype_icon_177535.svg" alt="">
+            <img class="skill__tech" src="/assets/icons/web.png" alt="">
+            <img class="skill__tech" src="/assets/icons/react.png" alt="">
+            <img class="skill__tech" src="/assets/icons/css.png" alt="">
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <h2 class="card__title" data-value="studiesTitle">Estudios</h2>
+        <div class="skills">
+          <img class="skill__academlo" src="/assets/icons/logo_nombre.png" alt="">
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__img--countainer">
+          <img src="/assets/images/Screenshot 2023-11-06 171835.png" alt="Weather app" class="card__img">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">HTML</span>
+            <span class="project__tag">CSS</span>
+            <span class="project__tag">REACT</span>
+          </div>
+          <h2 class="card__title" data-value="weatherAppTitle">Weather app</h2>
+          <p class="card__text" data-value="weatherAppText"> es una aplicación meteorológica simple y directa que
+            proporciona información precisa
+            sobre el clima en tu ubicación actual. Con solo un toque, podrás ver la temperatura actual, la previsión del
+            tiempo para los próximos días y recibir alertas meteorológicas importantes para tu área.
+
+            Con una interfaz fácil de usar y sin complicaciones, WeatherTrack te mantiene al tanto de las condiciones
+            climáticas en tiempo real, para que puedas planificar tus actividades diarias con confianza. Ya sea que
+            estés saliendo a correr, yendo de compras o simplemente dando un paseo, WeatherTrack te ayuda a estar
+            preparado para cualquier eventualidad climática.
+
+          </p>
+        </div>
+        <div class="buttons">
+          <a href=" https://litweatherapp.vercel.app/" target="_blank" class="button button--primary">Demo</a>
+          <a href="https://github.com/litdevfullstack/weatherapp" target="_blank" class="button button--ghost">Code</a>
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__img--countainer">
+          <img src="/assets/images/Screenshot 2023-11-06 185406.png" target="_blank" alt="Academlo Store"
+            class="card__img">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">HTML</span>
+            <span class="project__tag">CSS</span>
+            <span class="project__tag">JAVASCRIPT</span>
+          </div>
+          <h2 class="card__title" data-value="academloStoreTitle">Academlo Store</h2>
+          <p class="card__text" data-value="academloStoreText"> Academlo Camisetas ofrece una selección modesta pero
+            cuidadosamente elegida de
+            camisetas para tu comodidad diaria. Con opciones simples pero versátiles, encontrarás camisetas de calidad a
+            precios asequibles. Nuestro proceso de compra es fácil y directo, para que puedas adquirir tus camisetas
+            favoritas sin complicaciones. Explora nuestra colección hoy mismo y descubre cómo Academlo Camisetas puede
+            ser tu destino para el estilo sencillo y las compras sin preocupaciones.
+
+          </p>
+        </div>
+        <div class="buttons">
+          <a href="" target="_blank" class="button button--primary">Demo</a>
+          <a href="" target="_blank" class="button button--ghost">Code</a>
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__img--countainer">
+          <img src="/assets/images/Screenshot 2023-11-06 172215.png" alt="Fortune Cookies" class="card__img">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">HTML</span>
+            <span class="project__tag">CSS</span>
+            <span class="project__tag">REACT</span>
+          </div>
+          <h2 class="card__title" data-value="fortuneCookiesTitle">Galleta de la fortuna</h2>
+          <p class="card__text" data-value="fortuneCookiesText">
+            es tu aplicación de galleta de la fortuna favorita, diseñada para traerte un toque de sabiduría y misterio
+            en cada momento del día. Con solo deslizar tu dedo, podrás romper una galleta virtual y desvelar el mensaje
+            que te espera dentro.
+
+            Nuestra colección de mensajes está llena de inspiración, consejos útiles y predicciones intrigantes que te
+            dejarán pensando. ¿Qué aventuras te aguardan en el futuro? ¿Qué lecciones puedes aprender del pasado? Con
+            FortuneCookies, cada mensaje es una invitación a reflexionar y encontrar significado en el día a día.
+          </p>
+        </div>
+        <div class="buttons">
+          <a href="https://galletafortuna-nu.vercel.app/" target="_blank" class="button button--primary">Demo</a>
+          <a href="https://github.com/litdevfullstack/galletafortuna" target="_blank"
+            class="button button--ghost">Code</a>
+        </div>
+      </article>
+      <article class="card card--project">
+        <h2>Contactame</h2>
+        <form action="https://formsubmit.co/diego57mastodonte@gmail.com" method="POST">
+          <label for="name">Nombre</label>
+          <input type="text" name="name" id="name">
+
+          <label for="email">Correo electrónico</label>
+          <input type="email" name="email" id="email">
+
+          <label for="subject">Asunto</label>
+          <input type="text" name="subject" id="subject">
+
+          <label for="comments">Comentarios</label>
+          <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+
+          <input class="btn" type="submit" value="Enviar">
+        </form>
+
+      </article>
+    </section>
+  </main>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

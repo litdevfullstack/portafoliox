@@ -1,0 +1,16 @@
+{
+          "toggleText": "Dark Mode",
+          "profileSubtitle": "Front end developer",
+          "profileText": "Hello! I'm Diego Acuña and this is my web development portfolio. Although I'm in the early stages of my professional career, I'm excited to share my passion and dedication for creating captivating digital experiences. My main focus is to combine my technical skills in HTML, CSS, and JavaScript with my creativity to design and build intuitive and attractive websites. Through personal projects and practice exercises, I have gained experience in developing responsive websites that adapt to different devices and screen sizes.",
+          "hobbiesTitle": "Hobbies",
+          "skateboardingTitle": "Skateboarding",
+          "skateboardingText": "Since I was a child, skateboarding has been much more than just a hobby for me; it's a way of life, an expression of freedom and creativity that has led me to explore the world in a unique way. Every time I step on my board, I feel a rush of adrenaline coursing through my body. The sound of the wheels spinning on the asphalt, the wind brushing against my face, and the sensation of weightlessness as I glide through the streets are incomparable. Skateboarding is a dance between balance and skill, where each trick is a challenge that pushes me to surpass myself.",
+          "frontEndTitle": "Front End",
+          "studiesTitle": "Studies",
+          "weatherAppTitle": "Weather app",
+          "weatherAppText": "WeatherTrack is a simple and straightforward weather application that provides accurate information about the weather in your current location. With just one tap, you can see the current temperature, the weather forecast for the next few days, and receive important weather alerts for your area. With an easy-to-use and uncomplicated interface, WeatherTrack keeps you informed of real-time weather conditions, so you can plan your daily activities with confidence. Whether you're going for a run, shopping, or just taking a walk, WeatherTrack helps you be prepared for any weather eventuality.",
+          "academloStoreTitle": "Academlo Store",
+          "academloStoreText": "Academlo Camisetas offers a modest but carefully curated selection of T-shirts for your daily comfort. With simple yet versatile options, you'll find quality T-shirts at affordable prices. Our purchasing process is easy and straightforward, so you can purchase your favorite T-shirts without hassle. Explore our collection today and discover how Academlo Camisetas can be your destination for simple style and worry-free shopping.",
+          "fortuneCookiesTitle": "Fortune Cookies",
+          "fortuneCookiesText": "FortuneCookies is your favorite fortune cookie app, designed to bring you a touch of wisdom and mystery at every moment of the day. With just a swipe of your finger, you can crack open a virtual cookie and reveal the message that awaits you inside. Our collection of messages is filled with inspiration, helpful advice, and intriguing predictions that will leave you thinking. What adventures await you in the future? What lessons can you learn from the past? With FortuneCookies, each message is an invitation to reflect and find meaning in the everyday."      
+}
